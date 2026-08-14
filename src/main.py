@@ -1,5 +1,8 @@
-from utils import square, is_even, celsius_to_fahrenheit
+from utils import square, is_even, celsius_to_fahrenheit, greet
 
+
+name = input("Enter your name: ")
+print(greet(name))
 
 number = int(input("Enter a number: "))
 
